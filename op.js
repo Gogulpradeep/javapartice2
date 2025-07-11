@@ -107,7 +107,32 @@ switch(name){
                     }
                 }else{
                     console.log("nothing");
-                } */
+                } 
+
+
+                    for(let i = 1; i<=10;i++){
+                        console.log(i);
+                    }
+j =1;
+
+while(j<51){
+    console.log(j);
+    j++;
+}
+
+k=1;
+do{
+    console.log(k);
+    k++
+}while(k<=20) */
+
+
+
+
+
+
+
+
 
 
 
