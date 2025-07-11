@@ -50,7 +50,7 @@ function greetstudent(name){
     console.log("Hello"+" " + name + " "+ "! Nice to see you.");
 }
 greetstudent("gogul pradeep");
-greetstudent("gamingpuli");*/
+greetstudent("gamingpuli");
 
 
 
@@ -90,7 +90,28 @@ switch(name){
         case "hari":
             console.log("my name is hari");
             break ;
-}
+            default:
+                console.log("nothing");
+                break;
+}  
+
+                let age = 20;
+                let id = true;
+
+                if(age>=18){
+                    console.log("age is eligiblie");
+                    if(id=true){
+                        console.log("access is graned");
+                    }else{
+                        console.log("access is delaied");
+                    }
+                }else{
+                    console.log("nothing");
+                } */
+
+
+
+
 
 
 
