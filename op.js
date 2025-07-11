@@ -124,7 +124,54 @@ k=1;
 do{
     console.log(k);
     k++
-}while(k<=20) */
+}while(k<=20) 
+
+
+
+
+
+let greet = function(name){
+    console.log("hello " + name +" nice to met you" );
+}
+greet("gaming puli"); 
+
+
+
+let greet =  (name) => {
+    console.log("hello"+ name +"nice to meet you");
+}
+greet("gaming puli");
+
+
+
+let greet = (name)=> console.log("gogul pradeep");
+
+greet();
+greet();
+
+
+function add(a,b){
+    return a+b;
+}
+let result = add(10,5);
+console.log(result);*/
+
+
+function para(name="gogul pradeep"){
+    console.log(name);
+}
+para("aria");
+para();
+
+
+
+
+
+
+
+
+
+
 
 
 
