@@ -186,9 +186,57 @@ let sum = function(a,b){
  }
 
 
- details.greet();*/
+ details.greet();
+
+ let friuts = ["apple","bannana","cherry"];
+ console.log(friuts); 
+
+ let fruits = ["apple","bannana","cherry"];
+ console.log(fruits[0]);
+ 
+ let fruitss = ["apple","bannana","cherry"];
+ fruitss[2]="bluecherry" 
+
+ let friuts = ["apple","bananna","cherry"];
+ friuts.push("orange");
+ console.log(friuts);  
+
+ let fruits = ["apple","banna","cherry"];
+ fruits.unshift("orange");
+ console.log(fruits);  
+
+ let fruits = ["apple","bannana","cherry"];
+ fruits.pop();
+ console.log(fruits); 
+
+ let fruitss = ["apple","bannana","cherry"];
+ fruitss.shift();
+ console.log(fruitss);  
+
+ let fruits= ["apple", "banna","cherry"];
+console.log(fruits.slice(1,3)); 
+
+
+let fruits = ["apple", "banana", "cherry"];
+ let fruitString = fruits.join(", ");
+ console.log(fruitString);    */
+
+
+
+
 
  
+
+ 
+
+
+    
+
+
+
+
+
+
 
 
 
