@@ -154,16 +154,41 @@ function add(a,b){
     return a+b;
 }
 let result = add(10,5);
-console.log(result);*/
+console.log(result);
 
 
 function para(name="gogul pradeep"){
     console.log(name);
 }
 para("aria");
-para();
+para();  
+
+function name(a,b){
+    console.log(a+b);
+}
+name(20,50); 
+
+let sum = function(a,b){
+    return a+b;
+}
+ console.log(sum(10,6));  
 
 
+
+ let details = {
+    name:"gogul pradeep",
+    age:21,
+    gender:"male",
+    greet: function(){
+        console.log("i am gaming puli");
+    }
+
+ }
+
+
+ details.greet();*/
+
+ 
 
 
 
